@@ -17,3 +17,9 @@ The code is based on [koncept512_train_test_py3.ipynb](https://github.com/subpic
 -Traing/test code in [koncept512_train_test_pytorch.ipynb](https://github.com/ZhengyuZhao/koniq-PyTorch/blob/master/koncept512_train_test_pytorch.ipynb).
 
 -The [pre-trained model](https://surfdrive.surf.nl/files/index.php/s/oeGv7wEyyMwwbIO) is also available.
+
+
+# + extract features and scores on VQA datasets
+- `bash run_extract_koncept512.pth`
+- evaluate individual: `python nr_vqm_repeated_holdout_koncept512.py`
+- evaluate all-combined: `python nr_vqm_repeated_holdout_koncept512_all_combined.py`
