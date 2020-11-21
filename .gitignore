@@ -1,0 +1,9 @@
+512x384/
+logs/
+__pycache__
+result/
+video_frames/
+./KonCept512.pth
+.ipynb_checkpoints/
+.vscode/
+*.pth
